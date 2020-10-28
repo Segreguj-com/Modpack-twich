@@ -1,0 +1,11 @@
+{
+  "minecraft": {
+    "gameVersion": "1.16.1",
+    "side": "client",
+    "os": "windows"
+  },
+  "fabric": {
+    "gameVersion": "1.16.1",
+    "side": "client"
+  }
+}

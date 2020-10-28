@@ -1,0 +1,216 @@
+{
+  "gameJar": {
+    "version": "1.16.1",
+    "source": "https://launcher.mojang.com/v1/objects/c9abbe8ee4fa490751ca70635340b7cf00db83ff/client.jar",
+    "hash": "c9abbe8ee4fa490751ca70635340b7cf00db83ff",
+    "side": "client"
+  },
+  "mainClassClient": "net.minecraft.client.main.Main",
+  "libs": [
+    {
+      "mavenPath": "com.mojang:patchy:1.1",
+      "source": "https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar",
+      "hash": "aef610b34a1be37fa851825f12372b78424d8903"
+    },
+    {
+      "mavenPath": "oshi-project:oshi-core:1.1",
+      "source": "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+      "hash": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8"
+    },
+    {
+      "mavenPath": "net.java.dev.jna:jna:4.4.0",
+      "source": "https://libraries.minecraft.net/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar",
+      "hash": "cb208278274bf12ebdb56c61bd7407e6f774d65a"
+    },
+    {
+      "mavenPath": "net.java.dev.jna:platform:3.4.0",
+      "source": "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+      "hash": "e3f70017be8100d3d6923f50b3d2ee17714e9c13"
+    },
+    {
+      "mavenPath": "com.ibm.icu:icu4j:66.1",
+      "source": "https://libraries.minecraft.net/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar",
+      "hash": "72c7519b6d91f7a1f993bd44a99fe95d67211b27"
+    },
+    {
+      "mavenPath": "com.mojang:javabridge:1.0.22",
+      "source": "https://libraries.minecraft.net/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar",
+      "hash": "6aa6453aa99a52a5cd91749da1af6ab70e082ab3"
+    },
+    {
+      "mavenPath": "net.sf.jopt-simple:jopt-simple:5.0.3",
+      "source": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar",
+      "hash": "cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a"
+    },
+    {
+      "mavenPath": "io.netty:netty-all:4.1.25.Final",
+      "source": "https://libraries.minecraft.net/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar",
+      "hash": "d0626cd3108294d1d58c05859add27b4ef21f83b"
+    },
+    {
+      "mavenPath": "com.google.guava:guava:21.0",
+      "source": "https://libraries.minecraft.net/com/google/guava/guava/21.0/guava-21.0.jar",
+      "hash": "3a3d111be1be1b745edfa7d91678a12d7ed38709"
+    },
+    {
+      "mavenPath": "org.apache.commons:commons-lang3:3.5",
+      "source": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar",
+      "hash": "6c6c702c89bfff3cd9e80b04d668c5e190d588c6"
+    },
+    {
+      "mavenPath": "commons-io:commons-io:2.5",
+      "source": "https://libraries.minecraft.net/commons-io/commons-io/2.5/commons-io-2.5.jar",
+      "hash": "2852e6e05fbb95076fc091f6d1780f1f8fe35e0f"
+    },
+    {
+      "mavenPath": "commons-codec:commons-codec:1.10",
+      "source": "https://libraries.minecraft.net/commons-codec/commons-codec/1.10/commons-codec-1.10.jar",
+      "hash": "4b95f4897fa13f2cd904aee711aeafc0c5295cd8"
+    },
+    {
+      "mavenPath": "net.java.jinput:jinput:2.0.5",
+      "source": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+      "hash": "39c7796b469a600f72380316f6b1f11db6c2c7c4"
+    },
+    {
+      "mavenPath": "net.java.jutils:jutils:1.0.0",
+      "source": "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+      "hash": "e12fe1fda814bd348c1579329c86943d2cd3c6a6"
+    },
+    {
+      "mavenPath": "com.mojang:brigadier:1.0.17",
+      "source": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar",
+      "hash": "c6b7dc51dd44379cc751b7504816006e9be4b1e6"
+    },
+    {
+      "mavenPath": "com.mojang:datafixerupper:3.0.25",
+      "source": "https://libraries.minecraft.net/com/mojang/datafixerupper/3.0.25/datafixerupper-3.0.25.jar",
+      "hash": "b3e9ae66d5a69b4aa43d9dbe1e2b2d1401251343"
+    },
+    {
+      "mavenPath": "com.google.code.gson:gson:2.8.0",
+      "source": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar",
+      "hash": "c4ba5371a29ac9b2ad6129b1d39ea38750043eff"
+    },
+    {
+      "mavenPath": "com.mojang:authlib:1.6.25",
+      "source": "https://libraries.minecraft.net/com/mojang/authlib/1.6.25/authlib-1.6.25.jar",
+      "hash": "5bd0ce00c1e1f483641f85bccb02d1956dd77ec0"
+    },
+    {
+      "mavenPath": "org.apache.commons:commons-compress:1.8.1",
+      "source": "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+      "hash": "a698750c16740fd5b3871425f4cb3bbaa87f529d"
+    },
+    {
+      "mavenPath": "org.apache.httpcomponents:httpclient:4.3.3",
+      "source": "https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar",
+      "hash": "18f4247ff4572a074444572cee34647c43e7c9c7"
+    },
+    {
+      "mavenPath": "commons-logging:commons-logging:1.1.3",
+      "source": "https://libraries.minecraft.net/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+      "hash": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f"
+    },
+    {
+      "mavenPath": "org.apache.httpcomponents:httpcore:4.3.2",
+      "source": "https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+      "hash": "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e"
+    },
+    {
+      "mavenPath": "it.unimi.dsi:fastutil:8.2.1",
+      "source": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar",
+      "hash": "5ad88f325e424f8dbc2be5459e21ea5cab3864e9"
+    },
+    {
+      "mavenPath": "org.apache.logging.log4j:log4j-api:2.8.1",
+      "source": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
+      "hash": "e801d13612e22cad62a3f4f3fe7fdbe6334a8e72"
+    },
+    {
+      "mavenPath": "org.apache.logging.log4j:log4j-core:2.8.1",
+      "source": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
+      "hash": "4ac28ff2f1ddf05dae3043a190451e8c46b73c31"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl:3.2.2",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar",
+      "hash": "8ad6294407e15780b43e84929c40e4c5e997972e"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-jemalloc:3.2.2",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar",
+      "hash": "ee8e57a79300f78294576d87c4a587f8c99402e2"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-openal:3.2.2",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar",
+      "hash": "2b772a102b0a11ee5f2109a5b136f4dc7c630827"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-opengl:3.2.2",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar",
+      "hash": "6ac5bb88b44c43ea195a570aab059f63da004cd8"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-glfw:3.2.2",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar",
+      "hash": "d3ad4df38e400b8afba1de63f84338809399df5b"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-stb:3.2.2",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar",
+      "hash": "3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar",
+      "hash": "fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl:3.2.2:natives-windows",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2-natives-windows.jar",
+      "hash": "05359f3aa50d36352815fc662ea73e1c00d22170"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-jemalloc:3.2.2:natives-windows",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2-natives-windows.jar",
+      "hash": "338b25b99da3ba5f441f6492f2ce2a9c608860ed"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-openal:3.2.2:natives-windows",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2-natives-windows.jar",
+      "hash": "ec20a7d42a2438528fca87e60b1705f1e2339ddb"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-opengl:3.2.2:natives-windows",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2-natives-windows.jar",
+      "hash": "d8dcdc91066cae2d2d8279cb4a9f9f05d9525826"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-glfw:3.2.2:natives-windows",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-natives-windows.jar",
+      "hash": "dc6826d636bf796b33a49038c354210e661bfc17"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-tinyfd:3.2.2:natives-windows",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-windows.jar",
+      "hash": "e9115958773644e863332a6a06488d26f9e1fc9f"
+    },
+    {
+      "mavenPath": "org.lwjgl:lwjgl-stb:3.2.2:natives-windows",
+      "source": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-windows.jar",
+      "hash": "811f705cbb29e8ae8d60bdf8fdd38c0c123ad3ef"
+    },
+    {
+      "mavenPath": "com.mojang:text2speech:1.11.3",
+      "source": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar",
+      "hash": "f378f889797edd7df8d32272c06ca80a1b6b0f58"
+    },
+    {
+      "mavenPath": "com.mojang:text2speech:1.11.3:natives-windows",
+      "source": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-windows.jar",
+      "hash": "c0b242c0091be5acbf303263c7eeeaedd70544c7"
+    }
+  ]
+}
