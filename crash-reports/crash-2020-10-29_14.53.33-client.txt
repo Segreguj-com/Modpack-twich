@@ -1,0 +1,204 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 10/29/20 2:53 PM
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'immersive_portals'!
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:53)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke(EntrypointUtils.java:36)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointClient.start(EntrypointClient.java:33)
+	at net.minecraft.class_310.<init>(class_310.java:425)
+	at net.minecraft.client.main.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224)
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:140)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at link.infra.jumploader.Jumploader.onLoad(Jumploader.java:171)
+	at cpw.mods.modlauncher.TransformationServiceDecorator.onLoad(TransformationServiceDecorator.java:53)
+	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$loadTransformationServices$11(TransformationServicesHandler.java:131)
+	at cpw.mods.modlauncher.TransformationServicesHandler$$Lambda$51/854587510.accept(Unknown Source)
+	at java.util.HashMap$Values.forEach(HashMap.java:972)
+	at cpw.mods.modlauncher.TransformationServicesHandler.loadTransformationServices(TransformationServicesHandler.java:131)
+	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:56)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:75)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+Caused by: java.lang.NoClassDefFoundError: me/jellysquid/mods/sodium/client/SodiumHooks
+	at com.qouteall.hiding_in_the_bushes.sodium_compatibility.SodiumInterfaceInitializer.init(SodiumInterfaceInitializer.java:32)
+	at com.qouteall.hiding_in_the_bushes.ModEntryClient.onInitializeClient(ModEntryClient.java:67)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointClient$$Lambda$3207/1131451642.accept(Unknown Source)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:50)
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.SodiumHooks
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.fabricmc.loader.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:168)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:53)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke(EntrypointUtils.java:36)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointClient.start(EntrypointClient.java:33)
+	at net.minecraft.class_310.<init>(class_310.java:425)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:224)
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:140)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at link.infra.jumploader.Jumploader.onLoad(Jumploader.java:171)
+	at cpw.mods.modlauncher.TransformationServiceDecorator.onLoad(TransformationServiceDecorator.java:53)
+	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$loadTransformationServices$11(TransformationServicesHandler.java:131)
+	at cpw.mods.modlauncher.TransformationServicesHandler$$Lambda$51/854587510.accept(Unknown Source)
+	at java.util.HashMap$Values.forEach(HashMap.java:972)
+	at cpw.mods.modlauncher.TransformationServicesHandler.loadTransformationServices(TransformationServicesHandler.java:131)
+	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:56)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:75)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.1
+	Minecraft Version ID: 1.16.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 688887808 bytes (656 MB) / 2381840384 bytes (2271 MB) up to 4772593664 bytes (4551 MB)
+	CPUs: 4
+	JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx5120m -Xms256m -XX:PermSize=256m
+	Patchouli open book context: n/a
+	Fabric Mods: 
+		amethystmod: Amethyst Mod 1.2.1
+		armsoffire: Arms Of Fire 1.0.1
+		artifice: Artifice 0.8.0+1.16-rc1
+		artofalchemy: Art of Alchemy 1.0.0-rc2+1.16.1
+		astromine: Astromine 1.5.2
+		autoconfig1u: Auto Config v1 Updated 3.2.0-unstable
+		betternether: Better Nether 3.5.4
+		blackstonetools: Blackstone Tools 1.2.0+1.16.1
+		blue_endless_jankson: jankson 1.2.0
+		byg: BYG 1.0.13
+		cardinal-components-base: Cardinal Components API (base) 2.4.2
+		cardinal-components-block: Cardinal Components API (blocks) 2.4.2
+		cardinal-components-chunk: Cardinal Components API (chunks) 2.4.2
+		cardinal-components-entity: Cardinal Components API (entities) 2.4.2
+		cardinal-components-item: Cardinal Components API (items) 2.4.2
+		cardinal-components-level: Cardinal Components API (world saves) 2.4.2
+		cardinal-components-util: Cardinal Components API (utilities) 2.4.2
+		cardinal-components-world: Cardinal Components API (worlds) 2.4.2
+		cinderscapes: Cinderscapes 1.0.7+build.43-1.16.1
+		cloth-basic-math: Cloth Basic Math 0.5.1
+		cloth-client-events-v0: Cloth Client Events v0 1.0.5
+		cloth-config2: Cloth Config v4 4.6.0
+		cloth-durability-bar-api-v1: Cloth Durability Bar API v1 1.0.7
+		decorative: Decorative 3.0.0
+		dungeons: JavaDungeons 1.2.1+1.16.1
+		enderitemod: Enderite Mod 1.2.2
+		fabric: Fabric API 0.18.0+build.387-1.16.1
+		fabric-api-base: Fabric API Base 0.1.3+12a8474c7c
+		fabric-biomes-v1: Fabric Biomes (v1) 0.2.7+059ea86602
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.4+c6a8ea8902
+		fabric-command-api-v1: Fabric Command API (v1) 1.0.8+5ce5339802
+		fabric-commands-v0: Fabric Commands (v0) 0.2.0+52d3083602
+		fabric-containers-v0: Fabric Containers (v0) 0.1.8+045df74f02
+		fabric-content-registries-v0: Fabric Content Registries (v0) 0.1.9+059ea86602
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.2+b7f9825d02
+		fabric-dimensions-v1: fabric-dimensions-v1 1.0.0+a71b305302
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.0+e540c58402
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.0+16acbe5b02
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.0+fe81e12502
+		fabric-item-api-v1: Fabric Item API (v1) 1.0.0+16acbe5b02
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.2.0+438f963602
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.1+f404f3be02
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.0+3fa9f7c502
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 1.2.0+e83e061c02
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.0.0+386eb69e02
+		fabric-mining-levels-v0: Fabric Mining Levels (v0) 0.1.2+b764ce9902
+		fabric-models-v0: Fabric Models (v0) 0.1.0+dfdb52d602
+		fabric-networking-blockentity-v0: Fabric Networking Block Entity (v0) 0.2.5+b50ffc7b02
+		fabric-networking-v0: Fabric Networking (v0) 0.1.10+e00ecb5f02
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 1.5.7+2242e77202
+		fabric-object-builders-v0: Fabric Object Builders (v0) 0.6.1+a2d21ddd02
+		fabric-particles-v1: fabric-particles-v1 0.2.1+0a6f2a7002
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.3.8+7dba2d6c02
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 0.2.13+eae12eb802
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.3.4+34d6c87102
+		fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 2.1.0+be551d3c02
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.1.3+b7f9825d02
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 0.1.8+b7084faa02
+		fabric-rendering-v0: Fabric Rendering (v0) 1.1.0+5341049002
+		fabric-rendering-v1: Fabric Rendering (v1) 1.1.2+346247d702
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.2.6+f41e209802
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.1.0+97324d1102
+		fabric-tag-extensions-v0: Fabric Tag Extensions (v0) 0.2.7+a4c57d8e02
+		fabric-textures-v0: Fabric Textures (v0) 1.0.4+eae12eb802
+		fabric-tool-attribute-api-v1: Fabric Tool Attribute API (v1) 1.2.1+91fca5cd02
+		fabricloader: Fabric Loader 0.10.5+build.213
+		fermion: Fermion 2.1.191
+		fermion-modkeys: Fermion Modifier Keys 1.8.180-snapshot
+		fiber: fiber 0.23.0-1
+		immersive_portals: Immersive Portals 0.27
+		jankson: Jankson 3.0.0+j1.2.0
+		jumploader: Jumploader 2.0.1
+		libblockattributes_core: LibBlockAttributes (Core) 0.7.1-pre.4
+		libblockattributes_fluids: LibBlockAttributes (Fluids) 0.7.1-pre.4
+		libblockattributes_items: LibBlockAttributes (Items) 0.7.1-pre.4
+		libcd: LibCapableData 2.5.0+1.16.1
+		libgui: LibGui 2.0.1+1.16.1
+		libstructure: Libstructure 1.3
+		magna: Magna 1.3.2-1.16.1
+		mcdw: MC Dungeons Weapons 1.1.5b
+		midnight-hats: Midnight Hats 1.0.2
+		minecraft: Minecraft 1.16.1
+		mm: Manningham Mills 2.0
+		modmenu: Mod Menu 1.14.5+build.30
+		musicexpansion: Music Expansion 1.0.1
+		org_codehaus_groovy_groovy: groovy 3.0.3
+		org_codehaus_groovy_groovy-jsr223: groovy-jsr223 3.0.3
+		parchment: Parchment 1.0.2+1.15.2
+		patchouli: Patchouli 1.16-38-FABRIC
+		reach-entity-attributes: Reach Entity Attribute 1.0.1
+		roughlyenoughitems: Roughly Enough Items 4.12.1
+		shapes: Shapes 2.0.0+build.10
+		simplexterrain: Simplex Terrain 0.6.5
+		slight-gui-modifications: 'Slight' GUI Modifications 1.2.0
+		sodium: Sodium 0.1.0
+		soitburns: So It Burns 1.0.0
+		spinnery: Spinnery 3.1.14
+		team_reborn_energy: Energy 0.1.0
+		terraform: Terraform 2.1.7+build.31
+		voxelmap: VoxelMap 1.10.7
+		wrenchable: Wrenchable 1.0.0+1.16.1
+	Launched Version: Jumploader
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: NO CONTEXT
+	GL Caps: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>

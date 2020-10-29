@@ -30,7 +30,7 @@
   "isUnlocked": false,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-10-29T10:50:10.9300724Z",
+  "lastPlayed": "2020-10-29T15:27:47.2986192Z",
   "manifest": {
     "minecraft": {
       "version": "1.16.1",
@@ -45,11 +45,11 @@
     },
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
-    "name": "Serwer modpack segreguj.com",
-    "version": "1.0.1",
-    "author": "zabapies1",
+    "name": "Segreguj.com",
+    "version": "1.0.2",
+    "author": "zabapies",
     "description": null,
-    "projectID": null,
+    "projectID": 415788,
     "files": [
       {
         "projectID": 352997,
@@ -59,6 +59,21 @@
       {
         "projectID": 361988,
         "fileID": 3023837,
+        "required": true
+      },
+      {
+        "projectID": 407311,
+        "fileID": 3093640,
+        "required": true
+      },
+      {
+        "projectID": 394354,
+        "fileID": 2999444,
+        "required": true
+      },
+      {
+        "projectID": 399221,
+        "fileID": 3040716,
         "required": true
       },
       {
@@ -87,18 +102,23 @@
         "required": true
       },
       {
+        "projectID": 368395,
+        "fileID": 2989254,
+        "required": true
+      },
+      {
         "projectID": 306612,
         "fileID": 3049057,
         "required": true
       },
       {
-        "projectID": 380393,
-        "fileID": 3006298,
+        "projectID": 391739,
+        "fileID": 3024121,
         "required": true
       },
       {
-        "projectID": 391739,
-        "fileID": 3024121,
+        "projectID": 380393,
+        "fileID": 3006298,
         "required": true
       },
       {
@@ -112,31 +132,31 @@
         "required": true
       },
       {
-        "projectID": 297038,
-        "fileID": 3031741,
+        "projectID": 245733,
+        "fileID": 3005274,
         "required": true
       },
       {
-        "projectID": 245733,
-        "fileID": 3005274,
+        "projectID": 297038,
+        "fileID": 3031741,
         "required": true
       }
     ],
     "overrides": "overrides"
   },
-  "fileDate": "2020-10-28T18:39:52.137Z",
+  "fileDate": "2020-10-29T10:58:02.41Z",
   "installedModpack": {
     "addonID": 415788,
-    "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+    "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
     "installedFile": {
-      "id": 3095496,
-      "displayName": "1.0.1",
-      "fileName": "Serwer modpack segreguj.com-1.0.1.zip",
-      "fileDate": "2020-10-28T18:39:52.137Z",
-      "fileLength": 42278,
+      "id": 3096071,
+      "displayName": "1.0.2",
+      "fileName": "Segreguj.com-1.0.2.zip",
+      "fileDate": "2020-10-29T10:58:02.41Z",
+      "fileLength": 43609,
       "releaseType": 1,
       "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/3095/496/Serwer modpack segreguj.com-1.0.1.zip",
+      "downloadUrl": "https://edge.forgecdn.net/files/3096/71/Segreguj.com-1.0.2.zip",
       "isAlternate": false,
       "alternateFileId": 0,
       "dependencies": [],
@@ -144,11 +164,11 @@
       "modules": [
         {
           "foldername": "manifest.json",
-          "fingerprint": 1385805626,
+          "fingerprint": 1486137635,
           "type": 0
         }
       ],
-      "packageFingerprint": 118625071,
+      "packageFingerprint": 2234596630,
       "gameVersion": [
         "1.16.1"
       ],
@@ -161,11 +181,11 @@
       "gameVersionDateReleased": "2020-06-24T12:41:11.823Z",
       "gameId": 0,
       "isServerPack": false,
-      "FileNameOnDisk": "Serwer modpack segreguj.com-1.0.1.zip"
+      "FileNameOnDisk": "Segreguj.com-1.0.2.zip"
     },
-    "dateInstalled": "2020-10-28T18:45:39.3623776Z",
-    "dateUpdated": "2020-10-28T18:45:39.416378Z",
-    "dateLastUpdateAttempted": "2020-10-28T18:45:39.416378Z",
+    "dateInstalled": "2020-10-29T11:40:01.848855Z",
+    "dateUpdated": "2020-10-29T11:40:01.9267015Z",
+    "dateLastUpdateAttempted": "2020-10-29T11:40:01.9267015Z",
     "status": 4,
     "preferenceAutoInstallUpdates": false,
     "preferenceAlternateFile": false,
@@ -178,12 +198,15 @@
     "installedTargets": null
   },
   "projectID": 415788,
-  "fileID": 3095496,
+  "fileID": 3096071,
   "customAuthor": null,
   "modpackOverrides": [
+    "config\\artofalchemy.json",
     "config\\betternether.json",
     "config\\craftpresence.properties",
+    "config\\enderitemod.json",
     "config\\jumploader.json",
+    "config\\libgui.json5",
     "config\\magna.json",
     "config\\modkeys.properties",
     "config\\modmenu.json",
@@ -213,25 +236,25 @@
   ],
   "isMemoryOverride": false,
   "allocatedMemory": 0,
-  "guid": "305a6039-8193-4757-a21c-5016042f9940",
+  "guid": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
   "gameTypeID": 432,
-  "installPath": "C:\\Users\\Mateusz\\Twitch\\Minecraft\\Instances\\Segreguj.com\\",
-  "name": "Segreguj.com",
+  "installPath": "C:\\Users\\Mateusz\\Twitch\\Minecraft\\Instances\\[Fabric] Segreguj.com (1)\\",
+  "name": "[Fabric] Segreguj.com (1)",
   "cachedScans": [
     {
-      "folderName": "modmenu-1.14.5+build.30.jar",
-      "fingerprint": 4045906180,
-      "fileDateHash": 4061519386,
+      "folderName": "ecotones-0.6.0.jar",
+      "fingerprint": 1796471997,
+      "fileDateHash": 1978597947,
       "sectionID": 8,
       "individualFingerprints": [
-        4045906180
+        1796471997
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.6003687Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:44.9563712Z",
-      "queryTimestamp": "2020-10-28T18:45:55.1573927Z",
+      "timestamp": "2020-10-29T15:26:50.3810674Z",
+      "lastWriteTimeUtc": "2020-10-29T15:18:41.4614955Z",
+      "queryTimestamp": "2020-10-29T15:26:50.7350668Z",
       "fileCount": 1,
-      "fileSize": 88624
+      "fileSize": 2024512
     },
     {
       "folderName": "enderitemc-enderitemod-1.2.2-1.16.1.jar",
@@ -242,189 +265,219 @@
         2756798247
       ],
       "status": 1,
-      "timestamp": "2020-10-29T10:39:58.1334842Z",
+      "timestamp": "2020-10-29T13:53:04.2932593Z",
       "lastWriteTimeUtc": "2020-10-29T10:37:59.8819151Z",
-      "queryTimestamp": "2020-10-29T10:39:58.4294802Z",
+      "queryTimestamp": "2020-10-29T13:53:04.5922599Z",
       "fileCount": 1,
       "fileSize": 2892607
     },
     {
+      "folderName": "modmenu-1.14.5+build.30.jar",
+      "fingerprint": 4045906180,
+      "fileDateHash": 3349004442,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4045906180
+      ],
+      "status": 1,
+      "timestamp": "2020-10-29T11:40:17.7662641Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:08.4247764Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1108805Z",
+      "fileCount": 1,
+      "fileSize": 88624
+    },
+    {
       "folderName": "byg-1.0.13.jar",
       "fingerprint": 99284512,
-      "fileDateHash": 3612786479,
+      "fileDateHash": 413123420,
       "sectionID": 8,
       "individualFingerprints": [
         99284512
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.5013678Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:44.5163688Z",
-      "queryTimestamp": "2020-10-28T18:45:55.1573927Z",
+      "timestamp": "2020-10-29T11:40:17.609262Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:07.9717795Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1108805Z",
       "fileCount": 1,
       "fileSize": 6194546
     },
     {
       "folderName": "jumploader-2.0.1.jar",
       "fingerprint": 3172068972,
-      "fileDateHash": 3235360562,
+      "fileDateHash": 227062457,
       "sectionID": 8,
       "individualFingerprints": [
         3172068972
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.5903672Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:43.2403694Z",
-      "queryTimestamp": "2020-10-28T18:45:55.156387Z",
+      "timestamp": "2020-10-29T11:40:17.7402645Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:05.5159058Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1108805Z",
       "fileCount": 1,
       "fileSize": 214103
     },
     {
       "folderName": "fabric-api-0.18.0+build.387-1.16.1.jar",
       "fingerprint": 1904215722,
-      "fileDateHash": 2996782528,
+      "fileDateHash": 651140558,
       "sectionID": 8,
       "individualFingerprints": [
         1904215722
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.5543669Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:47.7979255Z",
-      "queryTimestamp": "2020-10-28T18:45:55.156387Z",
+      "timestamp": "2020-10-29T11:40:17.6932652Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:11.514673Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1108805Z",
       "fileCount": 1,
       "fileSize": 656899
     },
     {
-      "folderName": "simplexterrain-0.6.5.jar",
-      "fingerprint": 439534530,
-      "fileDateHash": 2784534517,
-      "sectionID": 8,
-      "individualFingerprints": [
-        439534530
-      ],
-      "status": 1,
-      "timestamp": "2020-10-28T18:45:54.6313612Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:42.8093729Z",
-      "queryTimestamp": "2020-10-28T18:45:55.1553869Z",
-      "fileCount": 1,
-      "fileSize": 1067909
-    },
-    {
       "folderName": "sodium-fabric-mc1.16.1-0.1.0.jar",
       "fingerprint": 1872737940,
-      "fileDateHash": 2677604899,
+      "fileDateHash": 1772290860,
       "sectionID": 8,
       "individualFingerprints": [
         1872737940
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.6933609Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:51.5150164Z",
-      "queryTimestamp": "2020-10-28T18:45:55.156387Z",
+      "timestamp": "2020-10-29T11:40:17.8753963Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:14.2240988Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1118841Z",
       "fileCount": 1,
       "fileSize": 419030
     },
     {
+      "folderName": "so-it-burns-1.16-1.0.0-BETA.jar",
+      "fingerprint": 3589594585,
+      "fileDateHash": 169167780,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3589594585
+      ],
+      "status": 1,
+      "timestamp": "2020-10-29T13:52:36.358236Z",
+      "lastWriteTimeUtc": "2020-10-29T13:41:58.0808803Z",
+      "queryTimestamp": "2020-10-29T13:52:36.9367736Z",
+      "fileCount": 1,
+      "fileSize": 143466
+    },
+    {
       "folderName": "javadungeons-1.2.1+1.16.1.jar",
       "fingerprint": 162534977,
-      "fileDateHash": 783478305,
+      "fileDateHash": 1102484446,
       "sectionID": 8,
       "individualFingerprints": [
         162534977
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.5743615Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:45.487374Z",
-      "queryTimestamp": "2020-10-28T18:45:55.156387Z",
+      "timestamp": "2020-10-29T11:40:17.7212725Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:08.9683758Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1118841Z",
       "fileCount": 1,
       "fileSize": 1351270
     },
     {
-      "folderName": "artofalchemy-1.0.0-rc2+1.16.1 (1).jar",
-      "fingerprint": 3423074541,
-      "fileDateHash": 3290289617,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3423074541
-      ],
-      "status": 1,
-      "timestamp": "2020-10-29T10:39:58.1174921Z",
-      "lastWriteTimeUtc": "2020-10-29T10:31:34.5849612Z",
-      "queryTimestamp": "2020-10-29T10:39:58.4304794Z",
-      "fileCount": 1,
-      "fileSize": 1885695
-    },
-    {
       "folderName": "fabricmod_VoxelMap-1.10.7_for_1.16.1.jar",
       "fingerprint": 1350836034,
-      "fileDateHash": 2294748081,
+      "fileDateHash": 3195187783,
       "sectionID": 8,
       "individualFingerprints": [
         1350836034
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.5643606Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:52.0194721Z",
-      "queryTimestamp": "2020-10-28T18:45:55.156387Z",
+      "timestamp": "2020-10-29T11:40:17.7062584Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:14.6993547Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1118841Z",
       "fileCount": 1,
       "fileSize": 781715
     },
     {
+      "folderName": "decorative-3.0.0-1.16.1.jar",
+      "fingerprint": 1665481145,
+      "fileDateHash": 1066736764,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1665481145
+      ],
+      "status": 1,
+      "timestamp": "2020-10-29T13:52:36.3082328Z",
+      "lastWriteTimeUtc": "2020-10-29T13:41:43.9835135Z",
+      "queryTimestamp": "2020-10-29T13:52:36.9377717Z",
+      "fileCount": 1,
+      "fileSize": 4460093
+    },
+    {
       "folderName": "astromine-1.5.2+fabric-1.16.1.jar",
       "fingerprint": 3408815701,
-      "fileDateHash": 4197831706,
+      "fileDateHash": 355582804,
       "sectionID": 8,
       "individualFingerprints": [
         3408815701
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.4593628Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:51.0436181Z",
-      "queryTimestamp": "2020-10-28T18:45:55.156387Z",
+      "timestamp": "2020-10-29T11:40:17.5647366Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:12.4973398Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1118841Z",
       "fileCount": 1,
       "fileSize": 6395649
     },
     {
       "folderName": "torohealth-1.16.1-forge-2.jar",
       "fingerprint": 1269334718,
-      "fileDateHash": 4190324645,
+      "fileDateHash": 1086064223,
       "sectionID": 8,
       "individualFingerprints": [
         1269334718
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.704362Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:53.0295065Z",
-      "queryTimestamp": "2020-10-28T18:45:55.156387Z",
+      "timestamp": "2020-10-29T13:54:15.7158343Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:15.2954983Z",
+      "queryTimestamp": "2020-10-29T13:54:16.1748271Z",
       "fileCount": 1,
       "fileSize": 81988
     },
     {
+      "folderName": "artofalchemy-1.0.0-rc2+1.16.1.jar",
+      "fingerprint": 3423074541,
+      "fileDateHash": 1332061728,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3423074541
+      ],
+      "status": 1,
+      "timestamp": "2020-10-29T11:40:17.5442111Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:11.0212932Z",
+      "queryTimestamp": "2020-10-29T11:40:18.1118841Z",
+      "fileCount": 1,
+      "fileSize": 1885695
+    },
+    {
       "folderName": "slight-gui-modifications-1.2.0.jar",
       "fingerprint": 3635247939,
-      "fileDateHash": 3302367385,
+      "fileDateHash": 3246531343,
       "sectionID": 8,
       "individualFingerprints": [
         3635247939
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.643361Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:49.4179343Z",
-      "queryTimestamp": "2020-10-28T18:45:55.1573927Z",
+      "timestamp": "2020-10-29T11:40:17.8213534Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:13.7799529Z",
+      "queryTimestamp": "2020-10-29T11:40:18.112882Z",
       "fileCount": 1,
       "fileSize": 8736460
     },
     {
       "folderName": "RoughlyEnoughItems-4.12.1.jar",
       "fingerprint": 3606031338,
-      "fileDateHash": 2794456802,
+      "fileDateHash": 4248695724,
       "sectionID": 8,
       "individualFingerprints": [
         3606031338
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.6173609Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:45.9973733Z",
-      "queryTimestamp": "2020-10-28T18:45:55.156387Z",
+      "timestamp": "2020-10-29T11:40:17.7882572Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:09.4980588Z",
+      "queryTimestamp": "2020-10-29T11:40:18.112882Z",
       "fileCount": 1,
       "fileSize": 1358761
     },
@@ -437,39 +490,54 @@
         3192332618
       ],
       "status": 1,
-      "timestamp": "2020-10-29T10:39:58.1144967Z",
+      "timestamp": "2020-10-29T13:53:04.2922628Z",
       "lastWriteTimeUtc": "2020-10-29T10:29:25.6069225Z",
-      "queryTimestamp": "2020-10-29T10:39:58.4314794Z",
+      "queryTimestamp": "2020-10-29T13:53:04.5942598Z",
       "fileCount": 1,
       "fileSize": 75278
     },
     {
+      "folderName": "blackstone-tools-1.2.0+1.16.1.jar",
+      "fingerprint": 3876654217,
+      "fileDateHash": 2939910455,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3876654217
+      ],
+      "status": 1,
+      "timestamp": "2020-10-29T13:52:36.302237Z",
+      "lastWriteTimeUtc": "2020-10-29T13:39:36.0749781Z",
+      "queryTimestamp": "2020-10-29T13:52:36.9387704Z",
+      "fileCount": 1,
+      "fileSize": 365095
+    },
+    {
       "folderName": "musicexpansion-1.0.1.jar",
       "fingerprint": 673057225,
-      "fileDateHash": 1931300977,
+      "fileDateHash": 837981390,
       "sectionID": 8,
       "individualFingerprints": [
         673057225
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.6073707Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:47.3139305Z",
-      "queryTimestamp": "2020-10-28T18:45:55.1573927Z",
+      "timestamp": "2020-10-29T11:40:17.7762631Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:09.9521519Z",
+      "queryTimestamp": "2020-10-29T11:40:18.112882Z",
       "fileCount": 1,
       "fileSize": 587917
     },
     {
       "folderName": "CraftPresence-1.16.1-1.6.8.jar",
       "fingerprint": 1079744900,
-      "fileDateHash": 150444251,
+      "fileDateHash": 1945071963,
       "sectionID": 8,
       "individualFingerprints": [
         1079744900
       ],
       "status": 1,
-      "timestamp": "2020-10-28T18:45:54.5423662Z",
-      "lastWriteTimeUtc": "2020-10-28T18:45:52.5476117Z",
-      "queryTimestamp": "2020-10-28T18:45:55.1573927Z",
+      "timestamp": "2020-10-29T11:40:17.6562631Z",
+      "lastWriteTimeUtc": "2020-10-29T11:40:15.7640302Z",
+      "queryTimestamp": "2020-10-29T11:40:18.112882Z",
       "fileCount": 1,
       "fileSize": 426718
     },
@@ -482,15 +550,15 @@
         3642823315
       ],
       "status": 1,
-      "timestamp": "2020-10-29T10:39:58.1474856Z",
+      "timestamp": "2020-10-29T13:53:04.3072643Z",
       "lastWriteTimeUtc": "2020-10-29T10:33:02.3446205Z",
-      "queryTimestamp": "2020-10-29T10:39:58.4314794Z",
+      "queryTimestamp": "2020-10-29T13:53:04.5952658Z",
       "fileCount": 1,
       "fileSize": 556604
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-10-29T10:39:59.1498579Z",
+  "lastPreviousMatchUpdate": "2020-10-29T15:26:51.131065Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.16.1",
@@ -511,194 +579,11 @@
     "LastSyncDate": "0001-01-01T00:00:00"
   },
   "preferenceShowAddOnInfo": true,
-  "installDate": "2020-10-28T18:45:37.9593749Z",
+  "installDate": "2020-10-29T11:40:01.001701Z",
   "installedAddons": [
     {
-      "addonID": 352997,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 3018936,
-        "displayName": "Simplex Terrain Generation 0.6.5",
-        "fileName": "simplexterrain-0.6.5.jar",
-        "fileDate": "2020-07-30T15:13:38.93Z",
-        "fileLength": 1067909,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3018/936/simplexterrain-0.6.5.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 1136524626,
-            "type": 0
-          },
-          {
-            "foldername": "simplexterrain.mixins.json",
-            "fingerprint": 1667704395,
-            "type": 0
-          },
-          {
-            "foldername": "simplexterrain.aw",
-            "fingerprint": 725041127,
-            "type": 0
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 2850339793,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3153729904,
-            "type": 0
-          },
-          {
-            "foldername": "simplexterrain-refmap.json",
-            "fingerprint": 2009602329,
-            "type": 0
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0
-          },
-          {
-            "foldername": "supercoder79",
-            "fingerprint": 1718436475,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 439534530,
-        "gameVersion": [
-          "1.16.1",
-          "Fabric"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "simplexterrain-0.6.5.jar"
-      },
-      "dateInstalled": "2020-10-28T18:45:42.8153771Z",
-      "dateUpdated": "2020-10-28T18:45:42.8183725Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:42.8183725Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 361988,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 3023837,
-        "displayName": " Jumploader 2.0.1 (Forge/Fabric)",
-        "fileName": "jumploader-2.0.1.jar",
-        "fileDate": "2020-08-05T02:13:06.37Z",
-        "fileLength": 214103,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3023/837/jumploader-2.0.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1664871055,
-            "type": 0
-          },
-          {
-            "foldername": "link",
-            "fingerprint": 1654680010,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 739145627,
-            "type": 0
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 3081693558,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1949537627,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3172068972,
-        "gameVersion": [
-          "1.16-Snapshot",
-          "1.16.3",
-          "1.15-Snapshot",
-          "1.16.1",
-          "1.14.1",
-          "1.14.4",
-          "1.14.3",
-          "1.15",
-          "1.16",
-          "1.14",
-          "Forge",
-          "1.15.2",
-          "1.14.2",
-          "1.16.2",
-          "1.13.2",
-          "1.14-Snapshot",
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2018-10-22T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "jumploader-2.0.1.jar"
-      },
-      "dateInstalled": "2020-10-28T18:45:43.2473811Z",
-      "dateUpdated": "2020-10-28T18:45:43.2493792Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:43.2493792Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 407311,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
         "id": 3093640,
         "displayName": "mcdw-1.1.5b-1.16.1.jar",
@@ -712,16 +597,16 @@
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 50029966,
+            "id": 0,
             "addonId": 310111,
             "type": 2,
-            "fileId": 3093640
+            "fileId": 0
           },
           {
-            "id": 50029967,
+            "id": 0,
             "addonId": 306612,
             "type": 3,
-            "fileId": 3093640
+            "fileId": 0
           }
         ],
         "isAvailable": true,
@@ -729,42 +614,42 @@
           {
             "foldername": "LICENSE",
             "fingerprint": 1850566274,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "mcdw.mixins.json",
             "fingerprint": 3156744276,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "fabric.mod.json",
             "fingerprint": 322291975,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 3506455718,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 2255378449,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "mcdw-refmap.json",
             "fingerprint": 3956676526,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "META-INF",
             "fingerprint": 2968169148,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "chronosacaria",
             "fingerprint": 1362923700,
-            "type": 3
+            "type": 0
           }
         ],
         "packageFingerprint": 3642823315,
@@ -772,39 +657,21 @@
           "1.16.1",
           "Fabric"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000001",
-            "gameVersion": "1.16.1",
-            "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
-            "gameVersionName": "1.16.1"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2031870,
-        "projectId": 407311,
-        "packageFingerprintId": 542454075,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2497180,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
         "FileNameOnDisk": "mcdw-1.1.5b-1.16.1.jar"
       },
-      "dateInstalled": "2020-10-29T10:39:59.1448611Z",
-      "dateUpdated": "2019-10-29T10:39:59.1448611Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateInstalled": "2020-10-29T11:40:05.9619041Z",
+      "dateUpdated": "2020-10-29T11:40:05.9679212Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:05.9679212Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -813,67 +680,175 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
-      "addonID": 394354,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "addonID": 306612,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
-        "id": 2999444,
-        "displayName": "amethystmod-1.2.1-1.16 (Fabric)",
-        "fileName": "amethystmod1.16-1.2.1.jar",
-        "fileDate": "2020-07-08T14:21:56.307Z",
-        "fileLength": 75278,
+        "id": 3049057,
+        "displayName": "[1.16.1] Fabric API 0.18.0 build 387",
+        "fileName": "fabric-api-0.18.0+build.387-1.16.1.jar",
+        "fileDate": "2020-09-03T19:13:18.163Z",
+        "fileLength": 656899,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2999/444/amethystmod1.16-1.2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3049/57/fabric-api-0.18.0+build.387-1.16.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
-            "foldername": "LICENSE",
-            "fingerprint": 18375977,
-            "type": 3
-          },
-          {
-            "foldername": "pheonixvx.mixins.json",
-            "fingerprint": 2845039958,
-            "type": 3
+            "foldername": "assets",
+            "fingerprint": 860504683,
+            "type": 0
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 929521459,
-            "type": 3
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2801123466,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2889546845,
-            "type": 3
+            "fingerprint": 1779555485,
+            "type": 0
           },
           {
             "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 3799300437,
-            "type": 3
+            "fingerprint": 426520122,
+            "type": 0
           }
         ],
-        "packageFingerprint": 3192332618,
+        "packageFingerprint": 1904215722,
         "gameVersion": [
           "1.16.1",
           "Fabric"
         ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "fabric-api-0.18.0+build.387-1.16.1.jar"
+      },
+      "dateInstalled": "2020-10-29T11:40:11.5246736Z",
+      "dateUpdated": "2020-10-29T11:40:11.5276696Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:11.5276696Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 388087,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3021462,
+        "displayName": "blackstone-tools-1.2.0+1.16.1.jar",
+        "fileName": "blackstone-tools-1.2.0+1.16.1.jar",
+        "fileDate": "2020-08-02T12:10:58.92Z",
+        "fileLength": 365095,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3021/462/blackstone-tools-1.2.0+1.16.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 48496893,
+            "addonId": 341772,
+            "type": 2,
+            "fileId": 3021462
+          },
+          {
+            "id": 48496890,
+            "addonId": 323710,
+            "type": 1,
+            "fileId": 3021462
+          },
+          {
+            "id": 48496889,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3021462
+          },
+          {
+            "id": 48496894,
+            "addonId": 317756,
+            "type": 2,
+            "fileId": 3021462
+          },
+          {
+            "id": 48496892,
+            "addonId": 360386,
+            "type": 2,
+            "fileId": 3021462
+          },
+          {
+            "id": 48496891,
+            "addonId": 393817,
+            "type": 2,
+            "fileId": 3021462
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "static_data",
+            "fingerprint": 2939976782,
+            "type": 3
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 430050148,
+            "type": 3
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1449570257,
+            "type": 3
+          },
+          {
+            "foldername": "blackstonetools.mixins.json",
+            "fingerprint": 3328099731,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2941848329,
+            "type": 3
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 358984426,
+            "type": 3
+          },
+          {
+            "foldername": "de",
+            "fingerprint": 3375877232,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3876654217,
+        "gameVersion": [
+          "1.16.3",
+          "1.16.1",
+          "Fabric",
+          "1.16.2"
+        ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000003",
+            "gameVersion": "1.16.3",
+            "gameVersionReleaseDate": "2020-09-10T14:44:20.443Z",
+            "gameVersionName": "1.16.3"
+          },
           {
             "gameVersionPadded": "0000000001.0000000016.0000000001",
             "gameVersion": "1.16.1",
@@ -885,6 +860,12 @@
             "gameVersion": "",
             "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
             "gameVersionName": "Fabric"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000002",
+            "gameVersion": "1.16.2",
+            "gameVersionReleaseDate": "2020-08-11T16:42:21.863Z",
+            "gameVersionName": "1.16.2"
           }
         ],
         "hasInstallScript": false,
@@ -892,18 +873,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1916440,
-        "projectId": 394354,
-        "packageFingerprintId": 484908370,
+        "renderCacheId": 1943729,
+        "projectId": 388087,
+        "packageFingerprintId": 498492914,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2310389,
+        "gameVersionMappingId": 2353965,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "amethystmod1.16-1.2.1.jar"
+        "FileNameOnDisk": "blackstone-tools-1.2.0+1.16.1.jar"
       },
-      "dateInstalled": "2020-10-29T10:39:59.1438582Z",
-      "dateUpdated": "2019-10-29T10:39:59.1438582Z",
+      "dateInstalled": "2020-10-29T13:52:37.6747731Z",
+      "dateUpdated": "2019-10-29T13:52:37.6747731Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -917,113 +898,78 @@
       "installedTargets": []
     },
     {
-      "addonID": 399221,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "addonID": 297038,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
-        "id": 3040716,
-        "displayName": "enderitemc-enderitemod-1.2.2-1.16.1.jar",
-        "fileName": "enderitemc-enderitemod-1.2.2-1.16.1.jar",
-        "fileDate": "2020-08-24T08:51:51.56Z",
-        "fileLength": 2892607,
+        "id": 3031741,
+        "displayName": "CraftPresence v1.6.8 (1.16.1)",
+        "fileName": "CraftPresence-1.16.1-1.6.8.jar",
+        "fileDate": "2020-08-13T23:41:53.687Z",
+        "fileLength": 426718,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3040/716/enderitemc-enderitemod-1.2.2-1.16.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3031/741/CraftPresence-1.16.1-1.6.8.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
-            "foldername": "LICENSE",
-            "fingerprint": 2044468480,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3404896894,
-            "type": 3
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 3676164593,
-            "type": 3
-          },
-          {
-            "foldername": "enderitemod.mixins.json",
-            "fingerprint": 1784595719,
-            "type": 3
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3935571115,
-            "type": 3
+            "foldername": "META-INF",
+            "fingerprint": 1351399815,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4263495559,
-            "type": 3
+            "fingerprint": 3520132507,
+            "type": 0
           },
           {
-            "foldername": "enderitemc-enderitemod-refmap.json",
-            "fingerprint": 742440913,
-            "type": 3
+            "foldername": "com",
+            "fingerprint": 2280175285,
+            "type": 0
           },
           {
-            "foldername": "META-INF",
-            "fingerprint": 3473613276,
-            "type": 3
+            "foldername": "lib",
+            "fingerprint": 1893455177,
+            "type": 0
           },
           {
-            "foldername": "net",
-            "fingerprint": 3710389796,
-            "type": 3
+            "foldername": "logo.png",
+            "fingerprint": 3041381440,
+            "type": 0
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 1411175204,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3670417372,
+            "type": 0
           }
         ],
-        "packageFingerprint": 2756798247,
+        "packageFingerprint": 1079744900,
         "gameVersion": [
           "1.16.1",
-          "Fabric",
-          "1.16"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000001",
-            "gameVersion": "1.16.1",
-            "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
-            "gameVersionName": "1.16.1"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000016",
-            "gameVersion": "1.16",
-            "gameVersionReleaseDate": "2020-06-23T13:41:08.75Z",
-            "gameVersionName": "1.16"
-          }
+          "Forge"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1967543,
-        "projectId": 399221,
-        "packageFingerprintId": 510813080,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2394677,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "enderitemc-enderitemod-1.2.2-1.16.1.jar"
+        "FileNameOnDisk": "CraftPresence-1.16.1-1.6.8.jar"
       },
-      "dateInstalled": "2020-10-29T10:39:59.1388608Z",
-      "dateUpdated": "2019-10-29T10:39:59.1388608Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateInstalled": "2020-10-29T11:40:15.7725378Z",
+      "dateUpdated": "2020-10-29T11:40:15.7750213Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:15.7750213Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1032,11 +978,130 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 368395,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 2989254,
+        "displayName": "artofalchemy-1.0.0-rc2+1.16.1.jar",
+        "fileName": "artofalchemy-1.0.0-rc2+1.16.1.jar",
+        "fileDate": "2020-06-26T09:53:19.73Z",
+        "fileLength": 1885695,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2989/254/artofalchemy-1.0.0-rc2+1.16.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 326869,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 233564,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 319057,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 321104,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 3862517712,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1017902209,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3934815486,
+            "type": 0
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2619746487,
+            "type": 0
+          },
+          {
+            "foldername": "artofalchemy.mixins.json",
+            "fingerprint": 400879263,
+            "type": 0
+          },
+          {
+            "foldername": "artofalchemy-refmap.json",
+            "fingerprint": 3526083854,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 445417130,
+            "type": 0
+          },
+          {
+            "foldername": "io",
+            "fingerprint": 1627107526,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3423074541,
+        "gameVersion": [
+          "1.16.1",
+          "Fabric"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "artofalchemy-1.0.0-rc2+1.16.1.jar"
+      },
+      "dateInstalled": "2020-10-29T11:40:11.0320003Z",
+      "dateUpdated": "2020-10-29T11:40:11.0369974Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:11.0369974Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 391378,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
         "id": 3028066,
         "displayName": "Biomes You Go 1.0.13 MCV: 1.16.1",
@@ -1113,9 +1178,9 @@
         "isServerPack": false,
         "FileNameOnDisk": "byg-1.0.13.jar"
       },
-      "dateInstalled": "2020-10-28T18:45:44.5283736Z",
-      "dateUpdated": "2020-10-28T18:45:44.5363798Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:44.5363798Z",
+      "dateInstalled": "2020-10-29T11:40:07.9857797Z",
+      "dateUpdated": "2020-10-29T11:40:07.996784Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:07.996784Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -1129,7 +1194,7 @@
     },
     {
       "addonID": 308702,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
         "id": 3006672,
         "displayName": "ModMenu v1.14.5+build.30 for 1.16.1",
@@ -1196,657 +1261,9 @@
         "isServerPack": false,
         "FileNameOnDisk": "modmenu-1.14.5+build.30.jar"
       },
-      "dateInstalled": "2020-10-28T18:45:44.9633753Z",
-      "dateUpdated": "2020-10-28T18:45:44.9663764Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:44.9663764Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 375052,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 2999078,
-        "displayName": "javadungeons-1.2.1+1.16.1.jar",
-        "fileName": "javadungeons-1.2.1+1.16.1.jar",
-        "fileDate": "2020-07-08T02:31:00.18Z",
-        "fileLength": 1351270,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2999/78/javadungeons-1.2.1+1.16.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 2995142921,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2394322243,
-            "type": 0
-          },
-          {
-            "foldername": "addblock.py",
-            "fingerprint": 586210597,
-            "type": 0
-          },
-          {
-            "foldername": "addloot.py",
-            "fingerprint": 1246992105,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1492770180,
-            "type": 0
-          },
-          {
-            "foldername": "additem.py",
-            "fingerprint": 4075437560,
-            "type": 0
-          },
-          {
-            "foldername": "mixins.dungeons.json",
-            "fingerprint": 426070531,
-            "type": 0
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 90011308,
-            "type": 0
-          },
-          {
-            "foldername": "javadungeons-refmap.json",
-            "fingerprint": 2377685908,
-            "type": 0
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0
-          },
-          {
-            "foldername": "juniebyte",
-            "fingerprint": 2140675449,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 162534977,
-        "gameVersion": [
-          "1.16.1",
-          "Fabric"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "javadungeons-1.2.1+1.16.1.jar"
-      },
-      "dateInstalled": "2020-10-28T18:45:45.4953751Z",
-      "dateUpdated": "2020-10-28T18:45:45.4983724Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:45.4983724Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 310111,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 3037946,
-        "displayName": "[Fabric 1.16.1] v4.12.1",
-        "fileName": "RoughlyEnoughItems-4.12.1.jar",
-        "fileDate": "2020-08-20T21:15:03.967Z",
-        "fileLength": 1358761,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3037/946/RoughlyEnoughItems-4.12.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 3037947,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 373261,
-            "type": 1,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 317121,
-            "type": 1,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 319057,
-            "type": 1,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 2455286801,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 4278489446,
-            "type": 0
-          },
-          {
-            "foldername": "icon.png",
-            "fingerprint": 1972081312,
-            "type": 0
-          },
-          {
-            "foldername": "mixin.roughlyenoughitems.json",
-            "fingerprint": 3161322973,
-            "type": 0
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 3841365845,
-            "type": 0
-          },
-          {
-            "foldername": "rei.aw",
-            "fingerprint": 36183588,
-            "type": 0
-          },
-          {
-            "foldername": "RoughlyEnoughItems-refmap.json",
-            "fingerprint": 4289870104,
-            "type": 0
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 896753127,
-            "type": 0
-          },
-          {
-            "foldername": "me",
-            "fingerprint": 3863328303,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3606031338,
-        "gameVersion": [
-          "1.16-Snapshot",
-          "1.16.1",
-          "Fabric",
-          "1.16"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "RoughlyEnoughItems-4.12.1.jar"
-      },
-      "dateInstalled": "2020-10-28T18:45:46.00338Z",
-      "dateUpdated": "2020-10-28T18:45:46.0073749Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:46.0073749Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 398370,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 3018130,
-        "displayName": "musicexpansion-1.0.1.jar",
-        "fileName": "musicexpansion-1.0.1.jar",
-        "fileDate": "2020-07-29T15:49:31.883Z",
-        "fileLength": 587917,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3018/130/musicexpansion-1.0.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 364618,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 18375977,
-            "type": 0
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 1719248477,
-            "type": 0
-          },
-          {
-            "foldername": "musicexpansion.mixins.json",
-            "fingerprint": 1644460543,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3914849075,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1243057404,
-            "type": 0
-          },
-          {
-            "foldername": "musicexpansion-refmap.json",
-            "fingerprint": 584551932,
-            "type": 0
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 55040212,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2838220212,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 673057225,
-        "gameVersion": [
-          "1.16.1",
-          "Fabric"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "musicexpansion-1.0.1.jar"
-      },
-      "dateInstalled": "2020-10-28T18:45:47.3209287Z",
-      "dateUpdated": "2020-10-28T18:45:47.3239299Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:47.3239299Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 368395,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 2989254,
-        "displayName": "artofalchemy-1.0.0-rc2+1.16.1.jar",
-        "fileName": "artofalchemy-1.0.0-rc2+1.16.1.jar",
-        "fileDate": "2020-06-26T09:53:19.73Z",
-        "fileLength": 1885695,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2989/254/artofalchemy-1.0.0-rc2+1.16.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 44102957,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 2989254
-          },
-          {
-            "id": 44102953,
-            "addonId": 326869,
-            "type": 1,
-            "fileId": 2989254
-          },
-          {
-            "id": 44102956,
-            "addonId": 233564,
-            "type": 2,
-            "fileId": 2989254
-          },
-          {
-            "id": 44102954,
-            "addonId": 319057,
-            "type": 1,
-            "fileId": 2989254
-          },
-          {
-            "id": 44102955,
-            "addonId": 321104,
-            "type": 2,
-            "fileId": 2989254
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 3862517712,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1017902209,
-            "type": 3
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3934815486,
-            "type": 3
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 2619746487,
-            "type": 3
-          },
-          {
-            "foldername": "artofalchemy.mixins.json",
-            "fingerprint": 400879263,
-            "type": 3
-          },
-          {
-            "foldername": "artofalchemy-refmap.json",
-            "fingerprint": 3526083854,
-            "type": 3
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 445417130,
-            "type": 3
-          },
-          {
-            "foldername": "io",
-            "fingerprint": 1627107526,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 3423074541,
-        "gameVersion": [
-          "1.16.1",
-          "Fabric"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000001",
-            "gameVersion": "1.16.1",
-            "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
-            "gameVersionName": "1.16.1"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1903956,
-        "projectId": 368395,
-        "packageFingerprintId": 478520528,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2288415,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "artofalchemy-1.0.0-rc2+1.16.1 (1).jar"
-      },
-      "dateInstalled": "2020-10-29T10:39:59.1408573Z",
-      "dateUpdated": "2019-10-29T10:39:59.1408573Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 306612,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 3049057,
-        "displayName": "[1.16.1] Fabric API 0.18.0 build 387",
-        "fileName": "fabric-api-0.18.0+build.387-1.16.1.jar",
-        "fileDate": "2020-09-03T19:13:18.163Z",
-        "fileLength": 656899,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3049/57/fabric-api-0.18.0+build.387-1.16.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "assets",
-            "fingerprint": 860504683,
-            "type": 0
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 1779555485,
-            "type": 0
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 426520122,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1904215722,
-        "gameVersion": [
-          "1.16.1",
-          "Fabric"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "fabric-api-0.18.0+build.387-1.16.1.jar"
-      },
-      "dateInstalled": "2020-10-28T18:45:47.8039229Z",
-      "dateUpdated": "2020-10-28T18:45:47.8059287Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:47.8059287Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 391739,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 3024121,
-        "displayName": "astromine-1.5.2+fabric-1.16.1.jar",
-        "fileName": "astromine-1.5.2+fabric-1.16.1.jar",
-        "fileDate": "2020-08-05T12:39:04.32Z",
-        "fileLength": 6395649,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3024/121/astromine-1.5.2+fabric-1.16.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 393236,
-            "type": 1,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 318449,
-            "type": 1,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 373261,
-            "type": 1,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 364618,
-            "type": 1,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 317995,
-            "type": 1,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 3481324154,
-            "type": 0
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 2651988658,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 1857496140,
-            "type": 0
-          },
-          {
-            "foldername": "astromine.mixins.json",
-            "fingerprint": 2485151894,
-            "type": 0
-          },
-          {
-            "foldername": "astromine.accesswidener",
-            "fingerprint": 1336393240,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2610721332,
-            "type": 0
-          },
-          {
-            "foldername": "astromine-1.5.2+fabric-1.16.1-refmap.json",
-            "fingerprint": 3246483956,
-            "type": 0
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1759100424,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 458186690,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3408815701,
-        "gameVersion": [
-          "1.16.1",
-          "Fabric"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "astromine-1.5.2+fabric-1.16.1.jar"
-      },
-      "dateInstalled": "2020-10-28T18:45:51.0536135Z",
-      "dateUpdated": "2020-10-28T18:45:51.0606133Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:51.0606133Z",
+      "dateInstalled": "2020-10-29T11:40:08.4357808Z",
+      "dateUpdated": "2020-10-29T11:40:08.4397928Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:08.4397928Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -1860,7 +1277,7 @@
     },
     {
       "addonID": 380393,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
         "id": 3006298,
         "displayName": "[Fabric 1.16.1] v1.2.0",
@@ -1968,9 +1385,9 @@
         "isServerPack": false,
         "FileNameOnDisk": "slight-gui-modifications-1.2.0.jar"
       },
-      "dateInstalled": "2020-10-28T18:45:49.4249417Z",
-      "dateUpdated": "2020-10-28T18:45:49.4369458Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:49.4369458Z",
+      "dateInstalled": "2020-10-29T11:40:13.7879512Z",
+      "dateUpdated": "2020-10-29T11:40:13.8019524Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:13.8019524Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -1983,8 +1400,340 @@
       "installedTargets": null
     },
     {
+      "addonID": 310111,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3037946,
+        "displayName": "[Fabric 1.16(.1)] v4.12.1",
+        "fileName": "RoughlyEnoughItems-4.12.1.jar",
+        "fileDate": "2020-08-20T21:15:03.967Z",
+        "fileLength": 1358761,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3037/946/RoughlyEnoughItems-4.12.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 3037947,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 373261,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 317121,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 319057,
+            "type": 1,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 2455286801,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4278489446,
+            "type": 0
+          },
+          {
+            "foldername": "icon.png",
+            "fingerprint": 1972081312,
+            "type": 0
+          },
+          {
+            "foldername": "mixin.roughlyenoughitems.json",
+            "fingerprint": 3161322973,
+            "type": 0
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 3841365845,
+            "type": 0
+          },
+          {
+            "foldername": "rei.aw",
+            "fingerprint": 36183588,
+            "type": 0
+          },
+          {
+            "foldername": "RoughlyEnoughItems-refmap.json",
+            "fingerprint": 4289870104,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 896753127,
+            "type": 0
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 3863328303,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3606031338,
+        "gameVersion": [
+          "1.16-Snapshot",
+          "1.16.1",
+          "Fabric",
+          "1.16"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "RoughlyEnoughItems-4.12.1.jar"
+      },
+      "dateInstalled": "2020-10-29T11:40:09.5080784Z",
+      "dateUpdated": "2020-10-29T11:40:09.5130617Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:09.5130617Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 399221,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3040716,
+        "displayName": "enderitemc-enderitemod-1.2.2-1.16.1.jar",
+        "fileName": "enderitemc-enderitemod-1.2.2-1.16.1.jar",
+        "fileDate": "2020-08-24T08:51:51.56Z",
+        "fileLength": 2892607,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/716/enderitemc-enderitemod-1.2.2-1.16.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 2044468480,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3404896894,
+            "type": 0
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 3676164593,
+            "type": 0
+          },
+          {
+            "foldername": "enderitemod.mixins.json",
+            "fingerprint": 1784595719,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3935571115,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4263495559,
+            "type": 0
+          },
+          {
+            "foldername": "enderitemc-enderitemod-refmap.json",
+            "fingerprint": 742440913,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3473613276,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 3710389796,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2756798247,
+        "gameVersion": [
+          "1.16.1",
+          "Fabric",
+          "1.16"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "enderitemc-enderitemod-1.2.2-1.16.1.jar"
+      },
+      "dateInstalled": "2020-10-29T11:40:06.9931341Z",
+      "dateUpdated": "2020-10-29T11:40:06.9991354Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:06.9991354Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 356678,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3042025,
+        "displayName": "Ecotones 0.6.0",
+        "fileName": "ecotones-0.6.0.jar",
+        "fileDate": "2020-08-25T17:13:00.643Z",
+        "fileLength": 2024512,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3042/25/ecotones-0.6.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 47198118,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3042025
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 1136524626,
+            "type": 3
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2026694793,
+            "type": 3
+          },
+          {
+            "foldername": "ecotones.mixins.json",
+            "fingerprint": 1587021796,
+            "type": 3
+          },
+          {
+            "foldername": "ecotones.aw",
+            "fingerprint": 725041127,
+            "type": 3
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2312375404,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 930946721,
+            "type": 3
+          },
+          {
+            "foldername": "ecotones-refmap.json",
+            "fingerprint": 875789450,
+            "type": 3
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1096989717,
+            "type": 3
+          },
+          {
+            "foldername": "supercoder79",
+            "fingerprint": 2785890359,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1796471997,
+        "gameVersion": [
+          "1.16.1",
+          "Fabric"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000001",
+            "gameVersion": "1.16.1",
+            "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
+            "gameVersionName": "1.16.1"
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1969155,
+        "projectId": 356678,
+        "packageFingerprintId": 511572163,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2397519,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "ecotones-0.6.0.jar"
+      },
+      "dateInstalled": "2020-10-29T15:26:51.1300749Z",
+      "dateUpdated": "2019-10-29T15:26:51.1300749Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 394468,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
         "id": 3003093,
         "displayName": "Sodium mc1.16.1-0.1.0",
@@ -2069,9 +1818,747 @@
         "isServerPack": false,
         "FileNameOnDisk": "sodium-fabric-mc1.16.1-0.1.0.jar"
       },
-      "dateInstalled": "2020-10-28T18:45:51.5230222Z",
-      "dateUpdated": "2020-10-28T18:45:51.5260188Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:51.5260188Z",
+      "dateInstalled": "2020-10-29T11:40:14.2330841Z",
+      "dateUpdated": "2020-10-29T11:40:14.2360891Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:14.2360891Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 245733,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3005274,
+        "displayName": "torohealth-1.16.1-forge-2.jar",
+        "fileName": "torohealth-1.16.1-forge-2.jar",
+        "fileDate": "2020-07-15T03:55:23.163Z",
+        "fileLength": 81988,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3005/274/torohealth-1.16.1-forge-2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4013440506,
+            "type": 3
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 3678394881,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3384034188,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1767139151,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1269334718,
+        "gameVersion": [
+          "1.16.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000001",
+            "gameVersion": "1.16.1",
+            "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
+            "gameVersionName": "1.16.1"
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1923700,
+        "projectId": 245733,
+        "packageFingerprintId": 488589270,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2321957,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "torohealth-1.16.1-forge-2.jar"
+      },
+      "dateInstalled": "2020-10-29T13:54:16.9419082Z",
+      "dateUpdated": "2019-10-29T13:54:16.9419082Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 394007,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3075694,
+        "displayName": "Decorative 3.0.0 - 1.16.1",
+        "fileName": "decorative-3.0.0-1.16.1.jar",
+        "fileDate": "2020-10-09T19:04:02.833Z",
+        "fileLength": 4460093,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3075/694/decorative-3.0.0-1.16.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 49162613,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3075694
+          },
+          {
+            "id": 49162612,
+            "addonId": 393236,
+            "type": 2,
+            "fileId": 3075694
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 224405242,
+            "type": 3
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 4064276852,
+            "type": 3
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 914074016,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 972419910,
+            "type": 3
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1184431390,
+            "type": 3
+          },
+          {
+            "foldername": "eu",
+            "fingerprint": 1872882575,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1665481145,
+        "gameVersion": [
+          "1.16.1",
+          "Fabric",
+          "1.16"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000001",
+            "gameVersion": "1.16.1",
+            "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
+            "gameVersionName": "1.16.1"
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000016",
+            "gameVersion": "1.16",
+            "gameVersionReleaseDate": "2020-06-23T13:41:08.75Z",
+            "gameVersionName": "1.16"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2010376,
+        "projectId": 394007,
+        "packageFingerprintId": 533430902,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 2466551,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "decorative-3.0.0-1.16.1.jar"
+      },
+      "dateInstalled": "2020-10-29T13:52:37.6727771Z",
+      "dateUpdated": "2019-10-29T13:52:37.6727771Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 393675,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 2996618,
+        "displayName": "so-it-burns-1.16-1.0.0-BETA.jar",
+        "fileName": "so-it-burns-1.16-1.0.0-BETA.jar",
+        "fileDate": "2020-07-04T22:06:23.463Z",
+        "fileLength": 143466,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2996/618/so-it-burns-1.16-1.0.0-BETA.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 18375977,
+            "type": 3
+          },
+          {
+            "foldername": "modid.mixins.json",
+            "fingerprint": 2992803475,
+            "type": 3
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2033290560,
+            "type": 3
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1350386835,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2611698810,
+            "type": 3
+          },
+          {
+            "foldername": "so-it-burns-refmap.json",
+            "fingerprint": 1497939266,
+            "type": 3
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3
+          },
+          {
+            "foldername": "gd",
+            "fingerprint": 1386929323,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3589594585,
+        "gameVersion": [
+          "1.16-Snapshot",
+          "1.16.1",
+          "Fabric",
+          "1.16"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016",
+            "gameVersion": "1.16",
+            "gameVersionReleaseDate": "2020-02-06T00:00:00Z",
+            "gameVersionName": "1.16-Snapshot"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000001",
+            "gameVersion": "1.16.1",
+            "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
+            "gameVersionName": "1.16.1"
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000016",
+            "gameVersion": "1.16",
+            "gameVersionReleaseDate": "2020-06-23T13:41:08.75Z",
+            "gameVersionName": "1.16"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1912936,
+        "projectId": 393675,
+        "packageFingerprintId": 482872220,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 2304658,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "so-it-burns-1.16-1.0.0-BETA.jar"
+      },
+      "dateInstalled": "2020-10-29T13:53:05.5041578Z",
+      "dateUpdated": "2019-10-29T13:53:05.5041578Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 375052,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 2999078,
+        "displayName": "javadungeons-1.2.1+1.16.1.jar",
+        "fileName": "javadungeons-1.2.1+1.16.1.jar",
+        "fileDate": "2020-07-08T02:31:00.18Z",
+        "fileLength": 1351270,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2999/78/javadungeons-1.2.1+1.16.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 2995142921,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2394322243,
+            "type": 0
+          },
+          {
+            "foldername": "addblock.py",
+            "fingerprint": 586210597,
+            "type": 0
+          },
+          {
+            "foldername": "addloot.py",
+            "fingerprint": 1246992105,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1492770180,
+            "type": 0
+          },
+          {
+            "foldername": "additem.py",
+            "fingerprint": 4075437560,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.dungeons.json",
+            "fingerprint": 426070531,
+            "type": 0
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 90011308,
+            "type": 0
+          },
+          {
+            "foldername": "javadungeons-refmap.json",
+            "fingerprint": 2377685908,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0
+          },
+          {
+            "foldername": "juniebyte",
+            "fingerprint": 2140675449,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 162534977,
+        "gameVersion": [
+          "1.16.1",
+          "Fabric"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "javadungeons-1.2.1+1.16.1.jar"
+      },
+      "dateInstalled": "2020-10-29T11:40:08.9793747Z",
+      "dateUpdated": "2020-10-29T11:40:08.9843796Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:08.9843796Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 361988,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3023837,
+        "displayName": " Jumploader 2.0.1 (Forge/Fabric)",
+        "fileName": "jumploader-2.0.1.jar",
+        "fileDate": "2020-08-05T02:13:06.37Z",
+        "fileLength": 214103,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3023/837/jumploader-2.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1664871055,
+            "type": 0
+          },
+          {
+            "foldername": "link",
+            "fingerprint": 1654680010,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 739145627,
+            "type": 0
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 3081693558,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1949537627,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3172068972,
+        "gameVersion": [
+          "1.16-Snapshot",
+          "1.16.3",
+          "1.15-Snapshot",
+          "1.16.1",
+          "1.14.1",
+          "1.14.4",
+          "1.14.3",
+          "1.15",
+          "1.16",
+          "1.14",
+          "Forge",
+          "1.15.2",
+          "1.14.2",
+          "1.16.2",
+          "1.13.2",
+          "1.14-Snapshot",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2018-10-22T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "jumploader-2.0.1.jar"
+      },
+      "dateInstalled": "2020-10-29T11:40:05.5239083Z",
+      "dateUpdated": "2020-10-29T11:40:05.5259062Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:05.5259062Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 398370,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3018130,
+        "displayName": "musicexpansion-1.0.1.jar",
+        "fileName": "musicexpansion-1.0.1.jar",
+        "fileDate": "2020-07-29T15:49:31.883Z",
+        "fileLength": 587917,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3018/130/musicexpansion-1.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 364618,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 18375977,
+            "type": 0
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 1719248477,
+            "type": 0
+          },
+          {
+            "foldername": "musicexpansion.mixins.json",
+            "fingerprint": 1644460543,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3914849075,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1243057404,
+            "type": 0
+          },
+          {
+            "foldername": "musicexpansion-refmap.json",
+            "fingerprint": 584551932,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 55040212,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2838220212,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 673057225,
+        "gameVersion": [
+          "1.16.1",
+          "Fabric"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "musicexpansion-1.0.1.jar"
+      },
+      "dateInstalled": "2020-10-29T11:40:09.9600599Z",
+      "dateUpdated": "2020-10-29T11:40:09.9640579Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:09.9640579Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 391739,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
+      "installedFile": {
+        "id": 3024121,
+        "displayName": "astromine-1.5.2+fabric-1.16.1.jar",
+        "fileName": "astromine-1.5.2+fabric-1.16.1.jar",
+        "fileDate": "2020-08-05T12:39:04.32Z",
+        "fileLength": 6395649,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3024/121/astromine-1.5.2+fabric-1.16.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 393236,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 318449,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 373261,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 364618,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 317995,
+            "type": 1,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 3481324154,
+            "type": 0
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2651988658,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1857496140,
+            "type": 0
+          },
+          {
+            "foldername": "astromine.mixins.json",
+            "fingerprint": 2485151894,
+            "type": 0
+          },
+          {
+            "foldername": "astromine.accesswidener",
+            "fingerprint": 1336393240,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2610721332,
+            "type": 0
+          },
+          {
+            "foldername": "astromine-1.5.2+fabric-1.16.1-refmap.json",
+            "fingerprint": 3246483956,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1759100424,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 458186690,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3408815701,
+        "gameVersion": [
+          "1.16.1",
+          "Fabric"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "astromine-1.5.2+fabric-1.16.1.jar"
+      },
+      "dateInstalled": "2020-10-29T11:40:12.5078629Z",
+      "dateUpdated": "2020-10-29T11:40:12.5158695Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:12.5158695Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -2085,7 +2572,7 @@
     },
     {
       "addonID": 225179,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
         "id": 3017436,
         "displayName": "(Fabric) VoxelMap for 1.16(.1)",
@@ -2163,9 +2650,9 @@
         "isServerPack": false,
         "FileNameOnDisk": "fabricmod_VoxelMap-1.10.7_for_1.16.1.jar"
       },
-      "dateInstalled": "2020-10-28T18:45:52.02648Z",
-      "dateUpdated": "2020-10-28T18:45:52.0304722Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:52.0304722Z",
+      "dateInstalled": "2020-10-29T11:40:14.7073526Z",
+      "dateUpdated": "2020-10-29T11:40:14.7128855Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:14.7128855Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -2178,130 +2665,62 @@
       "installedTargets": null
     },
     {
-      "addonID": 245733,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
+      "addonID": 394354,
+      "gameInstanceID": "1a0f047d-3e7e-4469-a97d-cb2458efaa4b",
       "installedFile": {
-        "id": 3005274,
-        "displayName": "torohealth-1.16.1-forge-2.jar",
-        "fileName": "torohealth-1.16.1-forge-2.jar",
-        "fileDate": "2020-07-15T03:55:23.163Z",
-        "fileLength": 81988,
+        "id": 2999444,
+        "displayName": "amethystmod-1.2.1-1.16 (Fabric)",
+        "fileName": "amethystmod1.16-1.2.1.jar",
+        "fileDate": "2020-07-08T14:21:56.307Z",
+        "fileLength": 75278,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3005/274/torohealth-1.16.1-forge-2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2999/444/amethystmod1.16-1.2.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
-            "foldername": "META-INF",
-            "fingerprint": 4013440506,
+            "foldername": "LICENSE",
+            "fingerprint": 18375977,
             "type": 0
           },
           {
-            "foldername": "net",
-            "fingerprint": 3678394881,
+            "foldername": "pheonixvx.mixins.json",
+            "fingerprint": 2845039958,
             "type": 0
           },
           {
-            "foldername": "assets",
-            "fingerprint": 3384034188,
+            "foldername": "fabric.mod.json",
+            "fingerprint": 929521459,
             "type": 0
           },
           {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1767139151,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1269334718,
-        "gameVersion": [
-          "1.16.1",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "torohealth-1.16.1-forge-2.jar"
-      },
-      "dateInstalled": "2020-10-28T18:45:53.0355063Z",
-      "dateUpdated": "2020-10-28T18:45:53.03851Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:53.03851Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 297038,
-      "gameInstanceID": "305a6039-8193-4757-a21c-5016042f9940",
-      "installedFile": {
-        "id": 3031741,
-        "displayName": "CraftPresence v1.6.8 (1.16.1)",
-        "fileName": "CraftPresence-1.16.1-1.6.8.jar",
-        "fileDate": "2020-08-13T23:41:53.687Z",
-        "fileLength": 426718,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3031/741/CraftPresence-1.16.1-1.6.8.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1351399815,
+            "foldername": "data",
+            "fingerprint": 2801123466,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3520132507,
+            "fingerprint": 2889546845,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2280175285,
-            "type": 0
-          },
-          {
-            "foldername": "lib",
-            "fingerprint": 1893455177,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 3041381440,
-            "type": 0
-          },
-          {
-            "foldername": "org",
-            "fingerprint": 1411175204,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3670417372,
+            "fingerprint": 3799300437,
             "type": 0
           }
         ],
-        "packageFingerprint": 1079744900,
+        "packageFingerprint": 3192332618,
         "gameVersion": [
           "1.16.1",
-          "Forge"
+          "Fabric"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -2312,11 +2731,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "CraftPresence-1.16.1-1.6.8.jar"
+        "FileNameOnDisk": "amethystmod1.16-1.2.1.jar"
       },
-      "dateInstalled": "2020-10-28T18:45:52.5546015Z",
-      "dateUpdated": "2020-10-28T18:45:52.5576067Z",
-      "dateLastUpdateAttempted": "2020-10-28T18:45:52.5576067Z",
+      "dateInstalled": "2020-10-29T11:40:06.3734984Z",
+      "dateUpdated": "2020-10-29T11:40:06.3764943Z",
+      "dateLastUpdateAttempted": "2020-10-29T11:40:06.3764943Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
