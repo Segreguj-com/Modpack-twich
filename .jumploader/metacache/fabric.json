@@ -2,14 +2,14 @@
   "mainClass": "net.fabricmc.loader.launch.knot.KnotClient",
   "libs": [
     {
-      "mavenPath": "net.fabricmc:fabric-loader:0.10.0+build.208",
-      "source": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.10.0+build.208/fabric-loader-0.10.0+build.208.jar",
-      "hash": "6f46c2c7803494b35cd44f5bace9a61ce9a7a7d1"
+      "mavenPath": "net.fabricmc:fabric-loader:0.10.5+build.213",
+      "source": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.10.5+build.213/fabric-loader-0.10.5+build.213.jar",
+      "hash": "395f461392c21828f3ea23e725291ea088758498"
     },
     {
       "mavenPath": "net.fabricmc:intermediary:1.16.1",
       "source": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.16.1/intermediary-1.16.1.jar",
-      "hash": "8fe31bcfa9132be68510d3ff2574f560edd58afb"
+      "hash": "6ba65f70a48f56b5a55425335ddc71c41bf81442"
     },
     {
       "mavenPath": "net.fabricmc:tiny-mappings-parser:0.2.2.14",
@@ -17,9 +17,9 @@
       "hash": "b7020df2520820f670dfaedd2cf23666d24a2aa8"
     },
     {
-      "mavenPath": "net.fabricmc:sponge-mixin:0.8.1+build.21",
-      "source": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.8.1+build.21/sponge-mixin-0.8.1+build.21.jar",
-      "hash": "94da90bdbee9f95bf6d6c41ca87943419a0b5624"
+      "mavenPath": "net.fabricmc:sponge-mixin:0.8.2+build.24",
+      "source": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.8.2+build.24/sponge-mixin-0.8.2+build.24.jar",
+      "hash": "0e5a741445d0f425bf3cce946c6cf8c7fb8376b2"
     },
     {
       "mavenPath": "net.fabricmc:tiny-remapper:0.3.0.70",

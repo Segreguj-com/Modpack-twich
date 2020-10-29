@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -19,7 +19,7 @@ bobView:true
 toggleCrouch:false
 toggleSprint:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.05
 gamma:0.0
 renderDistance:12
 entityDistanceScaling:1.0
@@ -31,7 +31,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla"]
+resourcePacks:["vanilla","slightguimodifications:cts_textures"]
 incompatibleResourcePacks:["vanilla"]
 lastServer:
 lang:en_us
@@ -60,7 +60,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:true
+skipMultiplayerWarning:false
 syncChunkWrites:true
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right

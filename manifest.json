@@ -1,0 +1,89 @@
+{
+  "minecraft": {
+    "version": "1.16.1",
+    "modLoaders": [
+      {
+        "id": "forge-32.0.108",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Serwer modpack segreguj.com",
+  "version": "1.0.1",
+  "author": "zabapies1",
+  "files": [
+    {
+      "projectID": 352997,
+      "fileID": 3018936,
+      "required": true
+    },
+    {
+      "projectID": 361988,
+      "fileID": 3023837,
+      "required": true
+    },
+    {
+      "projectID": 391378,
+      "fileID": 3028066,
+      "required": true
+    },
+    {
+      "projectID": 308702,
+      "fileID": 3006672,
+      "required": true
+    },
+    {
+      "projectID": 375052,
+      "fileID": 2999078,
+      "required": true
+    },
+    {
+      "projectID": 310111,
+      "fileID": 3037946,
+      "required": true
+    },
+    {
+      "projectID": 398370,
+      "fileID": 3018130,
+      "required": true
+    },
+    {
+      "projectID": 306612,
+      "fileID": 3049057,
+      "required": true
+    },
+    {
+      "projectID": 380393,
+      "fileID": 3006298,
+      "required": true
+    },
+    {
+      "projectID": 391739,
+      "fileID": 3024121,
+      "required": true
+    },
+    {
+      "projectID": 394468,
+      "fileID": 3003093,
+      "required": true
+    },
+    {
+      "projectID": 225179,
+      "fileID": 3017436,
+      "required": true
+    },
+    {
+      "projectID": 297038,
+      "fileID": 3031741,
+      "required": true
+    },
+    {
+      "projectID": 245733,
+      "fileID": 3005274,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
